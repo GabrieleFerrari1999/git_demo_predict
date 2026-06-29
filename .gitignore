@@ -5,6 +5,6 @@ __pycache__/
 .env
 
 #The .gitignore file tells Git which files or folders should not be tracked, like temporary files, build artifacts, 
-#or sensitive information. This allows for a cleaner repository and prevents unnecessary 
-#files from being committed and pushed to the remote repository. This could be useful for developers working on a 
-#Python project, ensuring that only relevant code and resources are included in version control.
+#or sensitive information. This allows for a cleaner repository and prevents unnecessary files from being committed 
+#and pushed to the remote repository. This could be useful for developers working on a  Python project, ensuring that 
+#only relevant code and resources are included in version control.
