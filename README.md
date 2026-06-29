@@ -10,9 +10,3 @@ What is the average monthly rainfall in the example dataset?
 
 - `analysis.py`: calculates the average rainfall
 - `data/rainfall.csv`: contains the example rainfall data
-
-## How to run the analysis
-
-```bash
-python analysis.py
-```
