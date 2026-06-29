@@ -11,7 +11,9 @@ with data_file.open(newline="", encoding="utf-8") as file:
         for row in reader
     ]
 
-average_rainfall = sum(rainfall_values) / len(rainfall_values) *3
+
+average_rainfall = sum(rainfall_values) / len(rainfall_values) *2
+
 sd = (sum((x - average_rainfall) ** 2 for x in rainfall_values) / len(rainfall_values)) ** 0.5
 
 print(f"Average monthly rainfall: {average_rainfall:.1f} mm")
@@ -22,3 +24,7 @@ maximum_rainfall = max(rainfall_values)
 
 print(f"Minimum monthly rainfall: {minimum_rainfall:.1f} mm")
 print(f"Maximum monthly rainfall: {maximum_rainfall:.1f} mm")
+
+
+
+Ahhh, I ruined it :)))
