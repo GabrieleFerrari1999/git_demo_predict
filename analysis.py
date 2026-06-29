@@ -16,9 +16,3 @@ average_rainfall = sum(rainfall_values) / len(rainfall_values)
 print(f"Average monthly rainfall: {average_rainfall:.1f} mm")
 
 average_rainfall = sum(rainfall_values) / len(rainfall_values)
-minimum_rainfall = min(rainfall_values)
-maximum_rainfall = max(rainfall_values)
-
-print(f"Average monthly rainfall: {average_rainfall:.1f} mm")
-print(f"Minimum monthly rainfall: {minimum_rainfall:.1f} mm")
-print(f"Maximum monthly rainfall: {maximum_rainfall:.1f} mm")
