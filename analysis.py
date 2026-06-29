@@ -21,3 +21,7 @@ maximum_rainfall = max(rainfall_values)
 
 print(f"Minimum monthly rainfall: {minimum_rainfall:.1f} mm")
 print(f"Maximum monthly rainfall: {maximum_rainfall:.1f} mm")
+
+
+
+Ahhh, I ruined it :)))
