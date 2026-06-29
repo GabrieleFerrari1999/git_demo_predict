@@ -12,6 +12,7 @@ with data_file.open(newline="", encoding="utf-8") as file:
     ]
 
 average_rainfall = sum(rainfall_values) / len(rainfall_values)
+sd = (sum((x - average_rainfall) ** 2 for x in rainfall_values) / len(rainfall_values)) ** 0.5
 
 print(f"Average monthly rainfall: {average_rainfall:.1f} mm")
 
